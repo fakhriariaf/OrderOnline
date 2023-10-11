@@ -33,3 +33,7 @@
 | Login success    | POST   | /auth/member/login | Response Code 200 and user got token |
 | Get Profile Info | GET    | /auth/member/me    | Response Code 200 and have data      |
 
+
+report : index.html
+
+
