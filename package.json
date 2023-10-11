@@ -1,0 +1,24 @@
+{
+  "name": "oexpress",
+  "version": "1.0.0",
+  "description": "api and ui test with cypress",
+  "author": "Fakhri Aria F",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "cypress": "^13.3.0",
+    "cypress-mochawesome-reporter": "^3.6.0",
+    "eslint": "^8.51.0",
+    "prettier": "3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "test:headed": "npx cypress run --browser chrome --headed",
+    "test": "npx cypress run --browser chrome"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mochawesome": "^7.1.3"
+  }
+}
